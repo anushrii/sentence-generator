@@ -1,0 +1,16 @@
+<sentence> ::= <noun phrase> <verb phrase>
+<sentence> ::= <noun phrase> <verb phrase> <conjunction> <verb phrase>
+<noun> ::= girl | spaceship | pencil | book | dog | balloon | cat | cupcake
+<transitive verb> ::= hits | sees | plays | eats
+<intransitive verb> ::= runs | sleeps
+<adjective> ::= beautiful | cute | hairy | soft
+<adverb> ::= quickly | happily | nicely
+<determiner> ::= a | the | this | that | each | every
+<pronoun> ::= he | she | it | they
+<preposition> ::= in | on | of | around | about
+<conjunction> ::= and | but
+<noun phrase> ::= <determiner> <noun> | <determiner> <adjectives> <noun>
+<noun phrase> ::= <determiner> <noun> <prepositional phrase>
+<verb phrase> ::= <intransitive verb> | <transitive verb> <noun phrase>
+<prepositional phrase> ::= <preposition> <noun phrase>
+<adjectives> ::= <adjective> | <adjective> <adjectives>

@@ -1,0 +1,17 @@
+<sentence> ::= <noun phrase> <verb phrase>
+<sentence> ::= <noun phrase> <verb phrase> <conjunction> <verb phrase>
+<noun> ::= boy | ring | hobbit | troll | moon | telescope
+<transitive verb> ::= hits | sees
+<intransitive verb> ::= runs | sleeps
+<adjective> ::= big | red | hairy
+<adverb> ::= quickly | quietly
+<determiner> ::= a | the | this | that | each | every
+<pronoun> ::= he | she | it
+<preposition> ::= in | on | of | around | about
+<conjunction> ::= and | but
+<noun phrase> ::= <determiner> <noun> | <determiner> <adjectives> <noun>
+<noun phrase> ::= <determiner> <noun> <prepositional phrase>
+<verb phrase> ::= <intransitive verb> | <transitive verb> <noun phrase>
+<prepositional phrase> ::= <preposition> <noun phrase>
+<adjectives> ::= <adjective> | <adjective> <adjectives>
+
